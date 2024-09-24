@@ -1,0 +1,4 @@
+Purpose
+=======
+
+A hotel digital marketing reporting and business intelligence tool designed for above-property users. It provides both roll-up reports plus individual hotel data for owners and management companies. The dashboard provides a view of the hotel’s revenue performance through all distribution channels.
