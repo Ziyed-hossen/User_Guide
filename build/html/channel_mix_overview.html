@@ -316,6 +316,8 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hyatt">Hyatt</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#marriott">Marriott</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ihg">IHG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#independent">Independent</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#choice">Choice</a></li>
 </ul>
             </nav>
         </div>
@@ -329,30 +331,83 @@ document.write(`
                   
   <section id="channel-mix-overview">
 <h1>Channel Mix Overview<a class="headerlink" href="#channel-mix-overview" title="Link to this heading">#</a></h1>
-<p>The Channel Analysis reports provide a high-level overview of bookings and activity across eCommerce booking channels. This report provides room night and revenue information for all Channels - GDS, OTA, and/or Website along with percent growth.</p>
+<p>The Channel Mix section in Cogwheel Analytics offers a comprehensive and insightful breakdown of how bookings are generated across various hotel brands, including Hilton, Hyatt, Marriott, IHG, Choice, and Independent hotels. The displayed table provides a month-by-month view of how each booking channel—such as Web, Voice, GDS, OTA, Property Direct, WS/FIT, and Others—contributes to overall bookings. This report not only highlights room nights and revenue across all channels but also shows growth trends, making it easier to track performance over time. With this detailed channel breakdown, users can quickly identify shifts in channel activity and optimize their booking strategies based on data-driven insights.</p>
+<a class="reference internal image-reference" href="_images/channel_mix_graph.png"><img alt="Channel Mix Graph" src="_images/channel_mix_graph.png" style="width: 800px;" /></a>
+<a class="reference internal image-reference" href="_images/channel_mix_data.png"><img alt="Channel Mix Data" src="_images/channel_mix_data.png" style="width: 800px;" /></a>
 <section id="hilton">
 <h2>Hilton<a class="headerlink" href="#hilton" title="Link to this heading">#</a></h2>
+<p>The data for Hilton is pulled from either the Channel Mix report available through the Hilton Reporting Hub or from the comprehensive Hilton Tableau CSV. The channels are categorized as follows:</p>
 <ul class="simple">
-<li><p>Data pulled from the Hilton Reporting Hub or the Hilton Tableau CSV.</p></li>
-<li><p>Key channels include Web, Voice, GDS, OTA, Property Direct, WS/FIT, and others.</p></li>
+<li><p><strong>Web</strong>: Corp Advantage, Honors Android Mobile, Honors IOS Mobile</p></li>
+<li><p><strong>Voice</strong>: Alexandria Outsource Reservation, Diamond Desk, Hilton Guest Assistance, HRCC/Dallas, HRCC/Dallas Level 2 Agent, HRCC/San Salvador Outsource, HRCC/Sofia Outsource, Jaipur Outsource Chat Center - T, Legazi Outsource Reservation Center, Manila Outsource Res, Manila Outsource Res2, Montego Bay Outsource Res Center</p></li>
+<li><p><strong>GDS</strong>: Amadeus, Amerilink, Apollo/Galileo, CLC Lodging, Restel, Sabre, Worldspan</p></li>
+<li><p><strong>OTA</strong>: Agoda, Booking.com, CTrip, Expedia, Go Global Travel, Hotels.com, Hotwire, HRS, LogiTravel, Lots of Hotels, Priceline, Travelocity Retail, TravelWeb, Travelweb Retail</p></li>
+<li><p><strong>Property Direct</strong>: Hotel Direct</p></li>
+<li><p><strong>WS/FIT</strong>: American Executive Intl, ATI, COSTCO, Destinations of the World, Fastpay, Hotelbeds, Mark Travel, Olympia Viaggi S.P.A., Saltours International, SUN Hotels, TBO Holidays, World 2 Meet</p></li>
+<li><p><strong>Other</strong>: Other</p></li>
 </ul>
 </section>
 <section id="hyatt">
 <h2>Hyatt<a class="headerlink" href="#hyatt" title="Link to this heading">#</a></h2>
+<p>Hyatt channels are mapped accordingly for data normalization purposes and are sourced from the PAW reports via Hyatt Connect:</p>
 <ul class="simple">
-<li><p>Channels mapped from PAW reports through Hyatt Connect.</p></li>
+<li><p><strong>Web</strong>: Hyatt.com, Mobile IOS, Mobile Android</p></li>
+<li><p><strong>Voice</strong>: Remote Call Forwarding, Toll-Free Calls</p></li>
+<li><p><strong>GDS</strong>: Sabre, Apollo/Galileo, Amadeus, Worldspan</p></li>
+<li><p><strong>OTA</strong>: Booking.com, Expedia, Hotels.com, Priceline, Amex Travel POS Expedia, Agoda, Travelocity, CTRIP Flagship Store, Other Internet, Priceline Opaque, Hotel Reservation Service, Internet</p></li>
+<li><p><strong>Property Direct</strong>: Hyatt.com Group, CRS Rooming List, Hotel</p></li>
+<li><p><strong>WS/FIT</strong>: HotelBeds, COSTCO via HS</p></li>
 </ul>
 </section>
 <section id="marriott">
 <h2>Marriott<a class="headerlink" href="#marriott" title="Link to this heading">#</a></h2>
+<p>The Marriott data is sourced from MRDW ECM1/CBD1. Channels for Marriott are as follows:</p>
 <ul class="simple">
-<li><p>Data is pulled from MRDW ECM1/CBD1.</p></li>
+<li><p><strong>Web</strong>: Note: This data may not match other Brand.com data for the same time frame.</p></li>
+<li><p><strong>Voice</strong>: Voice</p></li>
+<li><p><strong>GDS</strong>: GDS</p></li>
+<li><p><strong>OTA</strong>: OTA</p></li>
+<li><p><strong>Property Direct</strong>: Property</p></li>
+<li><p><strong>WS/FIT</strong>: Connected wholesaler</p></li>
+<li><p><strong>Other</strong>: Other</p></li>
 </ul>
 </section>
 <section id="ihg">
 <h2>IHG<a class="headerlink" href="#ihg" title="Link to this heading">#</a></h2>
+<p>IHG's channel data comes from the HRI reports:</p>
 <ul class="simple">
-<li><p>Comes from HRI reports.</p></li>
+<li><p><strong>Web</strong>: IHG.com, IHG App</p></li>
+<li><p><strong>Voice</strong>: Voice</p></li>
+<li><p><strong>GDS</strong>: GDS</p></li>
+<li><p><strong>OTA</strong>: OTA</p></li>
+<li><p><strong>Property Direct</strong>: INN</p></li>
+<li><p><strong>WS/FIT</strong>: IDC</p></li>
+<li><p><strong>Other</strong>: Other</p></li>
+</ul>
+</section>
+<section id="independent">
+<h2>Independent<a class="headerlink" href="#independent" title="Link to this heading">#</a></h2>
+<p>For Independent hotels, data is sourced from the booking engine used for the website. The channels are as follows:</p>
+<ul class="simple">
+<li><p><strong>Web</strong>: Brand.com, Booking Engine, Mobile, Direct Booking (for specific enterprises)</p></li>
+<li><p><strong>Voice</strong>: SynxSis Call Center, Call Center</p></li>
+<li><p><strong>GDS</strong>: Amadeus, Sabre, Worldspan</p></li>
+<li><p><strong>OTA</strong>: Agoda, Booking.com, Expedia, Hopper, Hotel Tonight, HotelBeds, American Tours, BNBERRY, Miki Travel, Trip.com</p></li>
+<li><p><strong>Property Direct</strong>: PMS</p></li>
+<li><p><strong>WS/FIT</strong>: Data is not available for Independents, therefore shows Zero (0)</p></li>
+<li><p><strong>Other</strong>: Data is not available for Independents, therefore shows Zero (0)</p></li>
+</ul>
+</section>
+<section id="choice">
+<h2>Choice<a class="headerlink" href="#choice" title="Link to this heading">#</a></h2>
+<p>The data for Choice Hotels is sourced from the Choice Central platform, which provides detailed insights into the following channels:</p>
+<ul class="simple">
+<li><p><strong>Web</strong>: CH.com, International Sites, Mobile</p></li>
+<li><p><strong>Voice</strong>: Call Forwarding, Click to Call, Other Voice</p></li>
+<li><p><strong>GDS</strong>: Amadeus, Other GDS, Sabre, TravelPort</p></li>
+<li><p><strong>OTA</strong>: AGODA, Booking.com, Expedia Group, Hopper, Other OTA, Priceline</p></li>
+<li><p><strong>Property Direct</strong>: Other HD, Same-Day Booking</p></li>
+<li><p><strong>WS/FIT</strong>: FastPayHotels, GetRoom, HotelBeds.com, WebBeds, Wholesale (Archived)</p></li>
 </ul>
 </section>
 </section>
@@ -406,6 +461,8 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#hyatt">Hyatt</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#marriott">Marriott</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ihg">IHG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#independent">Independent</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#choice">Choice</a></li>
 </ul>
   </nav></div>
 
