@@ -3,11 +3,11 @@ Channel Mix Overview
 
 The Channel Mix section in Cogwheel Analytics offers a comprehensive and insightful breakdown of how bookings are generated across various hotel brands, including Hilton, Hyatt, Marriott, IHG, Choice, and Independent hotels. The displayed table provides a month-by-month view of how each booking channel—such as Web, Voice, GDS, OTA, Property Direct, WS/FIT, and Others—contributes to overall bookings. This report not only highlights room nights and revenue across all channels but also shows growth trends, making it easier to track performance over time. With this detailed channel breakdown, users can quickly identify shifts in channel activity and optimize their booking strategies based on data-driven insights.
 
-.. image:: /image/channel_mix_graph.png
+.. image:: /_images/channel_mix_graph.png
    :width: 800px
    :alt: Channel Mix Graph
 
-.. image:: /image/channel_mix_data.png
+.. image:: /_images/channel_mix_data.png
    :width: 800px
    :alt: Channel Mix Data
 
